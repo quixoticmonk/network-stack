@@ -7,5 +7,4 @@ component "vpc" {
   providers = {
     aws = provider.aws.this
   }
-
 }
