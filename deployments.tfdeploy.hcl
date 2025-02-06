@@ -17,7 +17,12 @@ deployment "dev" {
   }
 }
 
-publish_output "dev_vpc_id" {
+publish_output "vpc_id" {
   description = "The networking Stack's VPC ID."
   value       = deployment.dev.vpc_id
+}
+
+publish_output "test_out" {
+  description = "Dummy out"
+  value       = deployment.dev.test_out
 }
