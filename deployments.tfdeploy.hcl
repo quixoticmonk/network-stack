@@ -13,7 +13,7 @@ deployment "dev" {
     role_arn                = store.varset.tokens.role_dev
 
     region        = "us-east-1"
-    cidr_block      = "172.20.0.0/16"
+    cidr_block      = "112.20.0.0/16"
   }
 }
 
